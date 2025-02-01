@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Farsan&family=Tillana:wght@400;500;600;700;800&display=swap');
+*{
+  margin: 0;
+  list-style: none;
+}
+header {
+   
+    padding: 20px;
+    text-align: center;
+    background-color: #F4CFDF ;
+    color: #CA3C66;
+    font-family: "Edu AU VIC WA NT Pre";
+  }
+  main{
+    font-family: "Farsan";
+    font-size: 20px;
+  }
+  a{
+    text-decoration: none;
+    color: blue;
+  }
+  .conteneur{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+  }
+  .section-centre{
+    width: 20%; 
+    padding: 20px;
+    border: 3px solid #CE6A6B;
+    color: #CA3C66;
+  }
+  .section-gauche{
+    width: 10%; 
+    height: 10%;
+    padding: 20px;
+    border: 3px solid #CE6A6B;
+    text-align: center;
+    color: #CA3C66;
+  }
+  .section-droite{
+    width: 10%; 
+    height: 10%;
+    padding: 20px;
+    border: 3px solid #CE6A6B;
+    color: #CA3C66;
+  }
+  footer{
+    background-color: #F4CFDF;
+    text-align: center;
+    padding: 60px;
+    color: #CA3C66;
+    
+  }
+  nav ol {
+    display: flex;
+    justify-content: space-around; 
+    margin: 0; 
+    padding: 0; 
+  }
+  nav li {
+    margin: 0 10px; 
+  }
+  nav a {
+    text-decoration: none; 
+    color: #317AC1; 
+  }
+  .click{
+    color: #CA3C66;
+  }
+  p{
+    text-align: center;
+  }
+  .intro{
+    padding-top: 10px;
+    padding-bottom: 20px;;
+    text-align: center;
+    color:#CA3C66;
+  }
+
+  .event{
+    text-align: center;
+    padding: 10px;
+    color: #CA3C66;
+  }
+
+  .section-separator {
+    border-bottom: 3px outset #CA3C66; /* Ajoutez une bordure en bas de la section */
+    padding-bottom: 10px; /* Ajoutez un espace sous la bordure */
+    
+  }
+  body{
+    
+    background-position: center;
+    background-size: cover;
+  }
+  h2, h3{
+    font-family: "Tillana";
+    text-align: center;
+    color: #CA3C66;
+    text-decoration: underline;
+  }
+  .mail{
+    color: #CA3C66;
+  }
+
