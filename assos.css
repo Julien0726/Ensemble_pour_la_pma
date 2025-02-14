@@ -1,0 +1,182 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box; /* Pour une meilleure gestion des tailles et des bordures */
+}
+
+/* Header et Navbar */
+header {
+  padding: 20px;
+  text-align: center;
+  background-color: #FAF9F6;
+  color: #CA3C66;
+  /* La propriété height: 100% sur un header est rarement ce qu'on veut. 
+     Il est préférable de laisser le header prendre la hauteur de son contenu. */
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  padding: 0; /* Pas besoin de padding ici, car on utilise déjà les marges sur les liens */
+  margin-bottom: 20px; /* Marge en bas pour espacer du contenu principal */
+}
+
+.nav a {
+  display: block;
+  min-width: 150px; /* Largeur minimale pour les liens */
+  margin: 10px; /* Marges pour espacer les liens */
+  padding: 10px;
+  text-align: center;
+  background-color: #F4CFDF;
+  color: #317AC1;
+  text-decoration: none;
+  border: 1px solid #317AC1;
+  border-radius: 5px; /* Ajout d'un border-radius pour adoucir les angles */
+  transition: background-color 0.3s, color 0.3s; /* Transition pour un effet au survol */
+}
+
+.nav a:hover {
+  background-color: #317AC1;
+  color: #F4CFDF;
+}
+
+.logo {
+  width: 150px; /* Taille du logo dans le header */
+  margin-top: 10px; /* Marge pour espacer du titre */
+}
+
+/* Section "Nom de l'association" et "Phrase d'introduction" */
+.name {
+  margin: 20px auto; /* Centrer la section horizontalement */
+  text-align: center;
+  
+  max-width: 800px; /* Empêcher la section de devenir trop large */
+}
+
+.name h1 {
+  color: #000080;
+  font-size: 2.5em; /* Utiliser em pour une taille relative */
+  margin-bottom: 10px; /* Espacement avec le h2 */
+}
+
+/* Section "Mot du Président" */
+.president {
+  text-align: center;
+  margin: 30px auto; /* Centrer la section horizontalement */
+  max-width: 800px;
+}
+
+h2 {
+  color: #CA3C66;
+  margin-bottom: 10px; /* Espacement avec le paragraphe */
+}
+
+/* Section "Introduction PMA" */
+.pma {
+  text-align: center;
+ 
+  margin: 20px auto; /* Centrer la section horizontalement */
+  padding: 20px;
+  max-width: 800px;
+}
+
+.image-pma {
+  width: 200px;
+  margin-bottom: 10px; /* Espacement avec le texte */
+}
+h3{
+  color:#666;
+}
+
+/* Section "Actualités" */
+.actu {
+  text-align: center;
+  
+  margin: 20px auto; /* Centrer la section horizontalement */
+  padding: 20px;
+  max-width: 800px;
+}
+
+.coeur {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px; /* Espacement avec le texte */
+}
+
+button {
+  border-color: #9AC8EB;
+  color: red;
+  text-decoration: none;
+  border-radius: 100px;
+  margin-top: 10px;
+  padding: 10px 20px; /* Ajout de padding pour rendre le bouton plus grand */
+  background-color: #F4CFDF;
+  border: none; /* Supprimer la bordure par défaut */
+  cursor: pointer; /* Changer le curseur au survol */
+  transition: background-color 0.3s; /* Transition pour un effet au survol */
+}
+
+button:hover {
+  background-color: chocolate;
+  color: white;
+}
+
+.image-actu {
+  width: 200px;
+  height: 150px;
+  margin-bottom: 10px; /* Espacement avec le texte */
+}
+
+/* Section "Événements" */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centrer les éléments horizontalement */
+  gap: 20px; /* Espacement entre les éléments */
+  margin: 20px auto; /* Centrer le conteneur horizontalement */
+  max-width: 1200px; /* Empêcher le conteneur de devenir trop large */
+}
+
+.event {
+  width: 45%; /* Utiliser un pourcentage pour une meilleure adaptabilité */
+  
+  padding: 20px;
+  box-sizing: border-box; /* Pour inclure le padding et la bordure dans la largeur */
+}
+
+.event-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.event-image {
+  flex-basis: 30%;
+  margin-bottom: 20px;
+}
+
+.event-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Footer */
+footer {
+  background-color: #FAF9F6;
+  text-align: center;
+  padding: 20px; /* Ajout de padding pour espacer le contenu du bord */
+}
+.click{
+  text-decoration: none;
+}
+
+
+
+
+
+  
+
+
+
