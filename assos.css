@@ -171,6 +171,38 @@ footer {
 .click{
   text-decoration: none;
 }
+/* Media Queries pour les tablettes et les mobiles */
+@media (min-width: 768px) {
+  /* Styles pour les tablettes (et au-delà) */
+  .event {
+      width: 45%; /* Retour à 45% pour les tablettes et les écrans plus larges */
+  }
+
+  .event-image {
+      flex-basis: 30%; /* Retour à 30% pour les tablettes et les écrans plus larges */
+  }
+}
+
+@media (max-width: 480px) {
+  /* Styles pour les mobiles */
+  .nav a {
+      min-width: 100%; /* Les liens prennent toute la largeur sur les mobiles */
+      margin: 5px 0; /* Réduction des marges */
+  }
+
+  .name h1 {
+      font-size: 1.8em; /* Réduction supplémentaire de la taille de police sur les mobiles */
+  }
+
+  .image-pma, .coeur, .image-actu {
+      width: 100%; /* Les images prennent toute la largeur sur les mobiles */
+  }
+
+  button {
+      padding: 8px 16px; /* Réduction du padding du bouton */
+  }
+}
+
 
 
 
